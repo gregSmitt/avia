@@ -1,0 +1,48 @@
+.container{
+	width: 297px;
+	position: relative;
+	margin-right: 28px;
+	p{
+		font-family: "Roboto","Helvetica","Arial",sans-serif;
+    	font-weight: 400;
+	}
+}
+.container__signs{
+	display: flex;
+	justify-content: space-between;
+	height: 23px;
+}
+.sign{
+	margin: 0;
+	font-size: 14px;
+	line-height: 1;
+	color: #B7BAC1;
+}
+.graph{
+	width: 269px;
+	height: 2px;
+	background-color: #B7BAC1;
+	position: absolute;
+	top: 23px;
+	left: 14px;
+	 .right, .left {
+		width: 8px;
+		height: 8px;
+		border-radius: 50%;
+		background-color: #B7BAC1;
+		position: absolute;
+		bottom: -3px;
+		right: -3px;
+	}
+	.left{
+		left: -3px;
+	}
+}
+.time{
+	margin-top: 8px;
+	margin-bottom: 0;
+	font-size: 14px;
+	line-height: 140%;
+	text-align: center;
+	color: #B7BAC1;
+}
